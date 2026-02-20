@@ -1,0 +1,19 @@
+version: 1
+project:
+  title: Простые примеры и рецепты по обучению моделей машинного обучения
+  authors:
+    - name: Вячеслав Федоров
+      github: fuodorov
+      email: slava.fuodorov@yandex.ru
+  github: phys-dev/ml-recipe-book
+  toc:
+    - file: intro.md
+    - title: БЛОК 1. Регрессия и Деревья
+      children:
+        - file: notebooks/block_1/01_linear_regression.ipynb
+          title: Построение линии регрессии
+
+site:
+  options:
+    folders: true
+  template: book-theme
