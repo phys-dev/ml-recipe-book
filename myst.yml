@@ -24,8 +24,6 @@ project:
           title: K ближайших соседей (KNN)
         - file: notebooks/06_svm.ipynb
           title: Машины опорных векторов (SVM)
-        - file: notebooks/11_mlp_classifier.ipynb
-          title: Нейросеть прямого распространения (классификация)
     - title: Кластеризация
       children:
         - file: notebooks/07_kmeans_kmeans_plus_plus.ipynb
@@ -40,6 +38,8 @@ project:
           title: Метод главных компонент (PCA)
     - title: Нейросети
       children:
+        - file: notebooks/11_mlp_classifier.ipynb
+          title: Нейросеть прямого распространения (классификация)
         - file: notebooks/12_mlp_regressor.ipynb
           title: Нейросеть прямого распространения (регрессия)
 
