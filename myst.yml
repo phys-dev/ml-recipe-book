@@ -8,10 +8,40 @@ project:
   github: phys-dev/ml-recipe-book
   toc:
     - file: intro.md
-    - title: БЛОК 1. Регрессия и Деревья
+    - title: Регрессия и Деревья
       children:
-        - file: notebooks/block_1/01_linear_regression.ipynb
+        - file: notebooks/01_linear_regression.ipynb
           title: Построение линии регрессии
+        - file: notebooks/03_regression_tree.ipynb
+          title: Дерево решений — регрессор
+    - title: Классификация
+      children:
+        - file: notebooks/02_classification_tree_random_forest.ipynb
+          title: Классификационное дерево и Random Forest
+        - file: notebooks/04_naive_bayes.ipynb
+          title: Наивный Байес
+        - file: notebooks/05_knn.ipynb
+          title: K ближайших соседей (KNN)
+        - file: notebooks/06_svm.ipynb
+          title: Машины опорных векторов (SVM)
+        - file: notebooks/11_mlp_classifier.ipynb
+          title: Нейросеть прямого распространения (классификация)
+    - title: Кластеризация
+      children:
+        - file: notebooks/07_kmeans_kmeans_plus_plus.ipynb
+          title: k-means и k-means++
+        - file: notebooks/08_dbscan.ipynb
+          title: DBSCAN
+        - file: notebooks/09_mean_shift.ipynb
+          title: Mean Shift
+    - title: Снижение размерности
+      children:
+        - file: notebooks/10_pca.ipynb
+          title: Метод главных компонент (PCA)
+    - title: Нейросети
+      children:
+        - file: notebooks/12_mlp_regressor.ipynb
+          title: Нейросеть прямого распространения (регрессия)
 
 site:
   options:
