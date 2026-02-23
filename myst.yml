@@ -1,10 +1,10 @@
 version: 1
 project:
-  title: Простые примеры и рецепты по обучению моделей машинного обучения
+  title: Рецепты по обучению моделей машинного обучения
   authors:
     - name: Вячеслав Федоров
       github: fuodorov
-      email: slava.fuodorov@yandex.ru
+      email: slava@fuodorov.ru
   github: phys-dev/ml-recipe-book
   toc:
     - file: intro.md
@@ -12,12 +12,12 @@ project:
       children:
         - file: notebooks/01_linear_regression.ipynb
           title: Построение линии регрессии
+        - file: notebooks/02_classification_tree_random_forest.ipynb
+          title: Классификационное дерево и Random Forest
         - file: notebooks/03_regression_tree.ipynb
           title: Дерево решений — регрессор
     - title: Классификация
       children:
-        - file: notebooks/02_classification_tree_random_forest.ipynb
-          title: Классификационное дерево и Random Forest
         - file: notebooks/04_naive_bayes.ipynb
           title: Наивный Байес
         - file: notebooks/05_knn.ipynb
